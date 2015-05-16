@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class MPSearchViewController;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) MPSearchViewController *viewController;
 
 @end
 

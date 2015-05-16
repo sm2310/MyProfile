@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "MPSearchViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.viewController = [[MPSearchViewController alloc] initWithNibName:@"MPSearchViewController" bundle:nil];
+    
+    self.window.rootViewController = self.viewController;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

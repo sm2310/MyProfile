@@ -14,6 +14,8 @@
 		50E8F8B31B079E7D00B8EA57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E8F8B21B079E7D00B8EA57 /* Images.xcassets */; };
 		50E8F8B61B079E7D00B8EA57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50E8F8B41B079E7D00B8EA57 /* LaunchScreen.xib */; };
 		50E8F8C21B079E7D00B8EA57 /* MyPortfolioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E8F8C11B079E7D00B8EA57 /* MyPortfolioTests.m */; };
+		50E8F8DC1B07A59100B8EA57 /* MPSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E8F8DA1B07A59100B8EA57 /* MPSearchViewController.m */; };
+		50E8F8DD1B07A59100B8EA57 /* MPSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50E8F8DB1B07A59100B8EA57 /* MPSearchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		50E8F8BB1B079E7D00B8EA57 /* MyPortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E8F8C01B079E7D00B8EA57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50E8F8C11B079E7D00B8EA57 /* MyPortfolioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPortfolioTests.m; sourceTree = "<group>"; };
+		50E8F8D91B07A59100B8EA57 /* MPSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSearchViewController.h; sourceTree = "<group>"; };
+		50E8F8DA1B07A59100B8EA57 /* MPSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSearchViewController.m; sourceTree = "<group>"; };
+		50E8F8DB1B07A59100B8EA57 /* MPSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPSearchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		50E8F8A41B079E7D00B8EA57 /* MyPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				50E8F8CB1B079F5A00B8EA57 /* Core */,
 				50E8F8A91B079E7D00B8EA57 /* AppDelegate.h */,
 				50E8F8AA1B079E7D00B8EA57 /* AppDelegate.m */,
 				50E8F8AC1B079E7D00B8EA57 /* ViewController.h */,
@@ -117,6 +123,16 @@
 				50E8F8C01B079E7D00B8EA57 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50E8F8CB1B079F5A00B8EA57 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				50E8F8D91B07A59100B8EA57 /* MPSearchViewController.h */,
+				50E8F8DA1B07A59100B8EA57 /* MPSearchViewController.m */,
+				50E8F8DB1B07A59100B8EA57 /* MPSearchViewController.xib */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50E8F8B11B079E7D00B8EA57 /* Main.storyboard in Resources */,
+				50E8F8DD1B07A59100B8EA57 /* MPSearchViewController.xib in Resources */,
 				50E8F8B61B079E7D00B8EA57 /* LaunchScreen.xib in Resources */,
 				50E8F8B31B079E7D00B8EA57 /* Images.xcassets in Resources */,
 			);
@@ -220,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50E8F8AE1B079E7D00B8EA57 /* ViewController.m in Sources */,
+				50E8F8DC1B07A59100B8EA57 /* MPSearchViewController.m in Sources */,
 				50E8F8AB1B079E7D00B8EA57 /* AppDelegate.m in Sources */,
 				50E8F8A81B079E7D00B8EA57 /* main.m in Sources */,
 			);
